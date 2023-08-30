@@ -1,0 +1,40 @@
+@import '../../styles/settings.scss';
+
+.navbar {
+  background-color: $color-success;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 20px;
+  background-color: $color-success;
+  border-radius: 20px; /* Dodaj zaokrąglenie do linków */
+  padding: 8px 16px; /* Dodaj wypełnienie do linków */
+  transition: background-color 0.3s ease; /* Dodaj płynne przejście tła */
+}
+
+.nav-link:hover {
+  background-color: $color-dark; /* Zmiana koloru tła przy najechaniu myszką */
+  color: white; /* Zmiana koloru tekstu na biały przy najechaniu myszką */
+}
+
+.nav-link:last-child {
+  margin-right: 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}

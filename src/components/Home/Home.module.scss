@@ -1,0 +1,7 @@
+@import '../../styles/settings.scss';
+
+.custom-carousel {
+    margin-top: 20px;;
+    border-radius: 20px; /* Zaokrąglenie brzegów karuzeli */
+    overflow: hidden; /* Ukrycie zawartości poza zaokrąglonym obszarem */
+  }
